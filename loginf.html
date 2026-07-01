@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GWCET Login</title>
+
+<style>
+
+body{
+font-family: Arial;
+background: linear-gradient(to right,#4facfe,#00f2fe);
+}
+
+.container{
+width:350px;
+background:white;
+padding:25px;
+margin:120px auto;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px gray;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+width:100%;
+padding:10px;
+background:blue;
+color:white;
+border:none;
+font-size:16px;
+}
+
+</style>
+
+<script>
+
+function login(){
+
+var u=document.getElementById("user").value;
+var p=document.getElementById("pass").value;
+
+if(u=="A" && p=="2007")
+{
+window.location="profile.html";
+}
+else
+{
+alert("Wrong Username or Password");
+}
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>GWCET Login</h2>
+
+<input type="text" id="user" placeholder="Username">
+
+<input type="password" id="pass" placeholder="Password">
+
+<button onclick="login()">Login</button>
+
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+
+<style>
+
+body{
+font-family:Arial;
+text-align:center;
+background:#f2f2f2;
+margin-top:150px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Welcome to Your Profile</h1>
+
+<h2>GWCET College Student Portal</h2>
+
+<p>You have successfully logged in.</p>
+
+</body>
+</html>

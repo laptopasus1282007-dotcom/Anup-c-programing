@@ -1,0 +1,4 @@
+{
+    "accessibility.signals.lineHasError": {
+        "sound": "on"
+    }
